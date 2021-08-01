@@ -1,4 +1,0 @@
-Md Kamrus Samad
-Sharukh Fardin
-Sajib Hossain
-This is to check git status
