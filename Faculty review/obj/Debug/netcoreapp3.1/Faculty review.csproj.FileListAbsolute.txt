@@ -1,0 +1,18 @@
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Faculty review.exe
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Faculty review.deps.json
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Faculty review.runtimeconfig.json
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Faculty review.runtimeconfig.dev.json
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Faculty review.dll
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Faculty review.pdb
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.csproj.AssemblyReference.cache
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Form1.resources
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Login.resources
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Profile.resources
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Properties.Resources.resources
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.csproj.GenerateResource.cache
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.AssemblyInfoInputs.cache
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.AssemblyInfo.cs
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.csproj.CoreCompileInputs.cache
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.dll
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.pdb
+C:\Git\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.genruntimeconfig.cache
