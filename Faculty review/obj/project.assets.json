@@ -839,20 +839,33 @@
     ]
   },
   "packageFolders": {
+<<<<<<< HEAD
     "C:\\Users\\Md Kamrus Samad\\.nuget\\packages\\": {}
+=======
+    "C:\\Users\\Windows 10\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
+>>>>>>> b5eceb6f64177cb7b71c18662d3c0efc9a6b675f
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+      "projectUniqueName": "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
       "projectName": "Faculty review",
-      "projectPath": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
-      "packagesPath": "C:\\Users\\Md Kamrus Samad\\.nuget\\packages\\",
-      "outputPath": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
+      "projectPath": "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+      "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
+      "outputPath": "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
+<<<<<<< HEAD
         "C:\\Users\\Md Kamrus Samad\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+=======
+        "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+>>>>>>> b5eceb6f64177cb7b71c18662d3c0efc9a6b675f
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"

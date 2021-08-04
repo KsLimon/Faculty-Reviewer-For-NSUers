@@ -8,10 +8,13 @@
   </PropertyGroup>
 
   <ItemGroup>
+<<<<<<< HEAD
     <PackageReference Include="Mysql.Data" Version="8.0.26" />
   </ItemGroup>
 
   <ItemGroup>
+=======
+>>>>>>> b5eceb6f64177cb7b71c18662d3c0efc9a6b675f
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
