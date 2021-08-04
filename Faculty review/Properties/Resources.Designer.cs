@@ -63,45 +63,9 @@ namespace Faculty_review.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-<<<<<<< HEAD
-        internal static System.Drawing.Bitmap _1240580477Asus_ROG_Phone_wallpaper_4 {
-            get {
-                object obj = ResourceManager.GetObject("1240580477Asus-ROG-Phone-wallpaper-4", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap gmail {
-            get {
-                object obj = ResourceManager.GetObject("gmail", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap North_South_University_01 {
-            get {
-                object obj = ResourceManager.GetObject("North-South-University-01", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap ww {
-            get {
-                object obj = ResourceManager.GetObject("ww", resourceCulture);
-=======
         internal static System.Drawing.Bitmap avatar {
             get {
                 object obj = ResourceManager.GetObject("avatar", resourceCulture);
->>>>>>> b5eceb6f64177cb7b71c18662d3c0efc9a6b675f
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
