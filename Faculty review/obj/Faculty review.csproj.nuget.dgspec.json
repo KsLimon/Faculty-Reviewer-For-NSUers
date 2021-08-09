@@ -1,27 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {}
+    "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {}
   },
   "projects": {
-    "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {
+    "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+        "projectUniqueName": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
         "projectName": "Faculty review",
-        "projectPath": "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
-        "packagesPath": "C:\\Users\\Windows 10\\.nuget\\packages\\",
-        "outputPath": "C:\\Git\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
+        "projectPath": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+        "packagesPath": "C:\\Users\\Md Kamrus Samad\\.nuget\\packages\\",
+        "outputPath": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
-          "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Windows 10\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Md Kamrus Samad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -45,6 +39,12 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySql.Data": {
+              "target": "Package",
+              "version": "[8.0.26, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -63,7 +63,7 @@
               "privateAssets": "none"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.302\\RuntimeIdentifierGraph.json"
         }
       }
     }

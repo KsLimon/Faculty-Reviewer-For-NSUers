@@ -17,5 +17,10 @@ namespace Faculty_review
             InitializeComponent();
         }
 
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Profile pp = new Profile();
+            pp.ShowDialog();
+        }
     }
 }
