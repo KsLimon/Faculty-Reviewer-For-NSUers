@@ -24,20 +24,24 @@ namespace Faculty_review
                 "localhost",
                 "root",
                 "1813059642",
-                "project_d"
+                "frapp"
                 );
 
             using (var conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
 
-                using (var cmd = new MySqlCommand("SELECT name FROM admin_page_plan_user", conn))
+                using (var cmd = new MySqlCommand("SELECT User_name, User_id, reviewed FROM user", conn))
                 {
                     using (var reader = cmd.ExecuteReader())
                     {
                         reader.Read();
                         var nam = reader.GetString(0);
+                        var uid = reader.GetString(1);
+                        var rvwd = reader.GetString(2);
                         label1.Text = nam;
+                        label2.Text = uid;
+                        label3.Text = "Faculty Reviewed: "+rvwd;
                     }
                 }
             }
@@ -73,6 +77,17 @@ namespace Faculty_review
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Edit edit = new Edit();
+            edit.ShowDialog();
         }
     }
 }

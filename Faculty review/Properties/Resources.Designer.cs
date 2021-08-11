@@ -63,9 +63,29 @@ namespace Faculty_review.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _1240580477Asus_ROG_Phone_wallpaper_4 {
+            get {
+                object obj = ResourceManager.GetObject("1240580477Asus-ROG-Phone-wallpaper-4", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap avatar {
             get {
                 object obj = ResourceManager.GetObject("avatar", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap bbb {
+            get {
+                object obj = ResourceManager.GetObject("bbb", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

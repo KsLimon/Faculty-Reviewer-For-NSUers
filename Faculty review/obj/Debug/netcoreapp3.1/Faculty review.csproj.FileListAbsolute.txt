@@ -44,3 +44,4 @@ D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3
 D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.dll
 D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.pdb
 D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.genruntimeconfig.cache
+D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Edit.resources
