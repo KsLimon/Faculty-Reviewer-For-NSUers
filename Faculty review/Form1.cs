@@ -22,5 +22,12 @@ namespace Faculty_review
             Profile pp = new Profile();
             pp.ShowDialog();
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            Search search = new Search();
+            search.Show();
+        }
     }
 }

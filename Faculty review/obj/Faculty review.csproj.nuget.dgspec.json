@@ -1,20 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {}
+    "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {}
   },
   "projects": {
-    "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {
+    "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+        "projectUniqueName": "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
         "projectName": "Faculty review",
-        "projectPath": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
-        "packagesPath": "C:\\Users\\Md Kamrus Samad\\.nuget\\packages\\",
-        "outputPath": "D:\\EDU\\Projects\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
+        "projectPath": "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+        "packagesPath": "C:\\Users\\Sajib Hossain\\.nuget\\packages\\",
+        "outputPath": "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
         "configFilePaths": [
-          "C:\\Users\\Md Kamrus Samad\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sajib Hossain\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
