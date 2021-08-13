@@ -31,7 +31,7 @@ namespace Faculty_review
             {
                 conn.Open();
 
-                using (var cmd = new MySqlCommand("SELECT User_name, User_id, reviewed FROM user", conn))
+                using (var cmd = new MySqlCommand("SELECT User_name, User_id, reviewed FROM user Where User_id = 1813059642", conn))
                 {
                     using (var reader = cmd.ExecuteReader())
                     {
@@ -67,11 +67,6 @@ namespace Faculty_review
         private void label1_Click(object sender, EventArgs e)
         {
             
-        }
-
-        private void flowLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
         }
 
         private void label2_Click(object sender, EventArgs e)

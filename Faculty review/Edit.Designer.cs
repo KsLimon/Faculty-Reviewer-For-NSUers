@@ -143,6 +143,7 @@ namespace Faculty_review
             this.button2.TabIndex = 8;
             this.button2.Text = "Submit";
             this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Edit
             // 
@@ -163,6 +164,7 @@ namespace Faculty_review
             this.Name = "Edit";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Edit";
+            this.Load += new System.EventHandler(this.Edit_Load);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
             this.ResumeLayout(false);
