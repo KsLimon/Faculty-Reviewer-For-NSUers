@@ -19,8 +19,7 @@ namespace Faculty_review
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Profile pp = new Profile();
-            pp.ShowDialog();
+            
         }
 
         private void button1_Click_1(object sender, EventArgs e)

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -10,6 +11,17 @@ namespace Faculty_review
 {
     public partial class Search : Form
     {
+
+
+        string connectionString = string.Format(
+                "server={0};uid={1};pwd={2};database={3}",
+                "localhost",
+                "root",
+                "1813059642",
+                "frapp"
+                );
+
+
         public Search()
         {
             InitializeComponent();
@@ -79,6 +91,38 @@ namespace Faculty_review
             this.Hide();
             Rating rating = new Rating();
             rating.Show();
+        }
+
+        private void button11_Click(object sender, EventArgs e)
+        {
+            Profile pp = new Profile();
+            pp.ShowDialog();
+        }
+
+        private void button7_Click(object sender, EventArgs e)
+        {
+            using (var conn = new MySqlConnection(connectionString))
+            {
+
+
+                conn.Open();
+
+                using (var cmd = new MySqlCommand("SELECT initial, name, dep, pro_link FROM faculty WHERE initial='" + this.textBox1.Text + "'", conn))
+                {
+                    using (var reader = cmd.ExecuteReader())
+                    {
+                        reader.Read();
+                        var initial = reader.GetString(0);
+                        var name = reader.GetString(1);
+                        var link = reader.GetString(3);
+                        label8.Text = initial;
+                        label9.Text = name;
+                        linkLabel1.Text = link;
+
+                    }
+                }
+
+            }
         }
     }
 }

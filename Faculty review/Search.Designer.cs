@@ -30,6 +30,7 @@ namespace Faculty_review
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
+            this.button11 = new System.Windows.Forms.Button();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel10 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
@@ -54,7 +55,6 @@ namespace Faculty_review
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button7 = new System.Windows.Forms.Button();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel17 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
@@ -70,6 +70,7 @@ namespace Faculty_review
             this.label4 = new System.Windows.Forms.Label();
             this.button9 = new System.Windows.Forms.Button();
             this.button10 = new System.Windows.Forms.Button();
+            this.button7 = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -85,6 +86,7 @@ namespace Faculty_review
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel1.Controls.Add(this.button11);
             this.panel1.Controls.Add(this.panel11);
             this.panel1.Controls.Add(this.panel10);
             this.panel1.Controls.Add(this.button8);
@@ -106,6 +108,19 @@ namespace Faculty_review
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 722);
             this.panel1.TabIndex = 0;
+            // 
+            // button11
+            // 
+            this.button11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button11.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button11.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.button11.Location = new System.Drawing.Point(22, 586);
+            this.button11.Name = "button11";
+            this.button11.Size = new System.Drawing.Size(102, 29);
+            this.button11.TabIndex = 7;
+            this.button11.Text = "Profile";
+            this.button11.UseVisualStyleBackColor = false;
+            this.button11.Click += new System.EventHandler(this.button11_Click);
             // 
             // panel11
             // 
@@ -466,18 +481,6 @@ namespace Faculty_review
             this.textBox1.TabIndex = 2;
             this.textBox1.Text = "Enter Faculty Initial.....";
             // 
-            // button7
-            // 
-            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
-            this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
-            this.button7.Location = new System.Drawing.Point(1069, 138);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(102, 29);
-            this.button7.TabIndex = 3;
-            this.button7.Text = "Search";
-            this.button7.UseVisualStyleBackColor = false;
-            // 
             // panel13
             // 
             this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
@@ -649,6 +652,19 @@ namespace Faculty_review
             this.button10.Text = "Cancel";
             this.button10.UseVisualStyleBackColor = false;
             // 
+            // button7
+            // 
+            this.button7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.button7.Font = new System.Drawing.Font("Segoe UI Semibold", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.button7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.button7.Location = new System.Drawing.Point(1069, 138);
+            this.button7.Name = "button7";
+            this.button7.Size = new System.Drawing.Size(102, 29);
+            this.button7.TabIndex = 3;
+            this.button7.Text = "Search";
+            this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
+            // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
@@ -709,7 +725,6 @@ namespace Faculty_review
         private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button7;
         private System.Windows.Forms.Panel panel11;
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button button8;
@@ -729,5 +744,7 @@ namespace Faculty_review
         private System.Windows.Forms.Button button9;
         private System.Windows.Forms.Button button10;
         private System.Windows.Forms.LinkLabel linkLabel1;
+        private System.Windows.Forms.Button button11;
+        private System.Windows.Forms.Button button7;
     }
 }

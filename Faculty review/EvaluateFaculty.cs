@@ -20,7 +20,7 @@ namespace Faculty_review
             this.Hide();
             Search search = new Search();
             search.Show();
-.        }
+        }
 
         private void button2_Click(object sender, EventArgs e)
         {
