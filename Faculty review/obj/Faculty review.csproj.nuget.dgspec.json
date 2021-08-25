@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {}
+    "E:\\CSE299\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {}
   },
   "projects": {
-    "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {
+    "E:\\CSE299\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+        "projectUniqueName": "E:\\CSE299\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
         "projectName": "Faculty review",
-        "projectPath": "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
+        "projectPath": "E:\\CSE299\\Faculty-Reviewer-For-NSUers\\Faculty review\\Faculty review.csproj",
         "packagesPath": "C:\\Users\\Sajib Hossain\\.nuget\\packages\\",
-        "outputPath": "I:\\c#\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
+        "outputPath": "E:\\CSE299\\Faculty-Reviewer-For-NSUers\\Faculty review\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

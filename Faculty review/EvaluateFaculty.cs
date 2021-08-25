@@ -17,8 +17,10 @@ namespace Faculty_review
 
         private void button1_Click(object sender, EventArgs e)
         {
-
-        }
+            this.Hide();
+            Search search = new Search();
+            search.Show();
+.        }
 
         private void button2_Click(object sender, EventArgs e)
         {
@@ -26,6 +28,16 @@ namespace Faculty_review
         }
 
         private void button3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void EvaluateFaculty_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void panel4_Paint(object sender, PaintEventArgs e)
         {
 
         }

@@ -29,5 +29,10 @@ namespace Faculty_review
             Search search = new Search();
             search.Show();
         }
+
+        private void radioButton1_CheckedChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

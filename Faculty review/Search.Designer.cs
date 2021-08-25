@@ -488,7 +488,7 @@ namespace Faculty_review
             this.panel13.Controls.Add(this.panel14);
             this.panel13.Location = new System.Drawing.Point(199, 182);
             this.panel13.Name = "panel13";
-            this.panel13.Size = new System.Drawing.Size(972, 421);
+            this.panel13.Size = new System.Drawing.Size(972, 433);
             this.panel13.TabIndex = 4;
             // 
             // panel17
