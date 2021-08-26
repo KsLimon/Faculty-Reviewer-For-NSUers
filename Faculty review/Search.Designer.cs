@@ -477,9 +477,10 @@ namespace Faculty_review
             this.textBox1.ForeColor = System.Drawing.SystemColors.AppWorkspace;
             this.textBox1.Location = new System.Drawing.Point(199, 138);
             this.textBox1.Name = "textBox1";
+            this.textBox1.PlaceholderText = "Enter Faculty Initial.....";
             this.textBox1.Size = new System.Drawing.Size(834, 29);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "Enter Faculty Initial.....";
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // panel13
             // 
@@ -560,6 +561,7 @@ namespace Faculty_review
             this.linkLabel1.TabIndex = 2;
             this.linkLabel1.TabStop = true;
             this.linkLabel1.Text = "Link";
+            this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
             // panel15
             // 

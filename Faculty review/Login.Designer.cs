@@ -70,19 +70,23 @@ namespace Faculty_review
             // 
             // textBox1
             // 
+            this.textBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.textBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
             this.textBox1.Location = new System.Drawing.Point(82, 208);
             this.textBox1.Name = "textBox1";
+            this.textBox1.PlaceholderText = "User Id";
             this.textBox1.Size = new System.Drawing.Size(258, 23);
             this.textBox1.TabIndex = 2;
-            this.textBox1.Text = "User Email";
             // 
             // textBox2
             // 
+            this.textBox2.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.SuggestAppend;
+            this.textBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
             this.textBox2.Location = new System.Drawing.Point(82, 251);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PlaceholderText = "Password";
             this.textBox2.Size = new System.Drawing.Size(258, 23);
             this.textBox2.TabIndex = 3;
-            this.textBox2.Text = "Password";
             // 
             // pictureBox2
             // 
@@ -117,6 +121,7 @@ namespace Faculty_review
             this.Register.TabIndex = 7;
             this.Register.Text = "Click to Register";
             this.Register.UseVisualStyleBackColor = false;
+            this.Register.Click += new System.EventHandler(this.Register_Click);
             // 
             // pictureBox3
             // 

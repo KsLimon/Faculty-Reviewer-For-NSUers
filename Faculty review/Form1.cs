@@ -39,5 +39,11 @@ namespace Faculty_review
             Registration rg = new Registration();
             rg.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Login lin = new Login();
+            lin.Show();
+        }
     }
 }
