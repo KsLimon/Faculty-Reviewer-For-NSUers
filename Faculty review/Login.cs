@@ -20,25 +20,39 @@ namespace Faculty_review
                 "frapp"
                 );
 
+        public static string name, typ;
+
         public Login()
         {
             InitializeComponent();
         }
 
-        private void Signin_Click(object sender, EventArgs e)
-        {
 
+        public void signin()
+        {
             using (var conn = new MySqlConnection(connectionString))
             {
                 conn.Open();
 
-                using (var sqd = new MySqlDataAdapter("SELECT Count(*) FROM user WHERE User_id = '"+ this.textBox1.Text +"' AND password = '"+ this.textBox2.Text +"'", conn))
+                using (var sqd = new MySqlDataAdapter("SELECT Count(*) FROM user WHERE User_id = '" + this.textBox1.Text + "' AND password = '" + this.textBox2.Text + "'", conn))
                 {
 
                     DataTable dt = new DataTable();
                     sqd.Fill(dt);
                     if (dt.Rows[0][0].ToString() == "1")
                     {
+
+                        using (var cmd = new MySqlCommand("SELECT User_name, type_id FROM user Where User_id = '" + this.textBox1.Text + "'", conn))
+                        {
+                            using (var reader = cmd.ExecuteReader())
+                            {
+                                reader.Read();
+                                name = reader.GetString(0);
+                                typ = reader.GetString(1);
+                                /*var rvwd = reader.GetString(2);*/
+                            }
+                        }
+
                         this.Hide();
                         Search src = new Search();
                         src.Show();
@@ -48,6 +62,12 @@ namespace Faculty_review
                 }
 
             }
+        }
+
+
+        private void Signin_Click(object sender, EventArgs e)
+        {
+            signin();
         }
 
         private void pictureBox1_Click(object sender, EventArgs e)

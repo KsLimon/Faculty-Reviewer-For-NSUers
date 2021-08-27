@@ -316,9 +316,8 @@ namespace Faculty_review
             this.label2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label2.Location = new System.Drawing.Point(3, 86);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(146, 30);
+            this.label2.Size = new System.Drawing.Size(0, 30);
             this.label2.TabIndex = 3;
-            this.label2.Text = "Administrator";
             // 
             // label1
             // 
@@ -327,9 +326,8 @@ namespace Faculty_review
             this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.label1.Location = new System.Drawing.Point(22, 65);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(94, 21);
+            this.label1.Size = new System.Drawing.Size(0, 21);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Sajib Limon";
             this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // pictureBox1

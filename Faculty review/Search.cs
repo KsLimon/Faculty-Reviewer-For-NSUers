@@ -21,11 +21,25 @@ namespace Faculty_review
                 "frapp"
                 );
 
-
         public Search()
         {
             InitializeComponent();
+
+            /*Login lg = new Login();*/
+            label1.Text = Login.name;
+            if (Login.typ == "1")
+            {
+                label2.Text = "Administrator";
+            }
+            else if (Login.typ == "2")
+            {
+                label2.Text = "Faculty";
+            }
+            else            {
+                label2.Text = "Student";
+            }
         }
+
 
         private void label1_Click(object sender, EventArgs e)
         {
