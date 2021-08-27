@@ -27,7 +27,7 @@ namespace Faculty_review
             InitializeComponent();
         }
 
-        public static void label1_Click(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
             
         }
