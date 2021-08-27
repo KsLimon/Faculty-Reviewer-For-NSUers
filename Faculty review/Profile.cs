@@ -31,7 +31,7 @@ namespace Faculty_review
             {
                 conn.Open();
 
-                using (var cmd = new MySqlCommand("SELECT User_name, User_id, reviewed FROM user Where User_id = 1813059642", conn))
+                using (var cmd = new MySqlCommand("SELECT User_name, User_id, reviewed FROM user Where User_id = '"+ Login.uid +"'", conn))
                 {
                     using (var reader = cmd.ExecuteReader())
                     {
