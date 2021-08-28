@@ -84,5 +84,10 @@ namespace Faculty_review
             Edit edit = new Edit();
             edit.ShowDialog();
         }
+
+        private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
     }
 }
