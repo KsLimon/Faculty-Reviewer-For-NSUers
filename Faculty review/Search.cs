@@ -21,6 +21,8 @@ namespace Faculty_review
                 "frapp"
                 );
 
+        public static string fac_name, fac_ini, tc, gr, fr, oa;
+
         public Search()
         {
             InitializeComponent();
@@ -121,7 +123,7 @@ namespace Faculty_review
 
                 conn.Open();
 
-                using (var cmd = new MySqlCommand("SELECT initial, name, dep, pro_link FROM faculty WHERE initial='" + this.textBox1.Text + "'", conn))
+                using (var cmd = new MySqlCommand("SELECT initial, name, dep, pro_link, teaching, grading, friendly, over_all FROM faculty WHERE initial='" + this.textBox1.Text + "'", conn))
                 {
                     using (var reader = cmd.ExecuteReader())
                     {
@@ -132,6 +134,13 @@ namespace Faculty_review
                         label8.Text = initial;
                         label9.Text = name;
                         linkLabel1.Text = link;
+                        fac_ini = initial;
+                        fac_name = name;
+                        tc = reader.GetString(4);
+                        gr = reader.GetString(5);
+                        fr = reader.GetString(6);
+                        oa = reader.GetString(7);
+                        label10.Text = oa;
 
                     }
                 }

@@ -191,6 +191,7 @@ namespace Faculty_review
             this.Controls.Add(this.Signin);
             this.Name = "Login";
             this.Text = "+";
+            this.Load += new System.EventHandler(this.Login_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
