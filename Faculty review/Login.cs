@@ -20,7 +20,7 @@ namespace Faculty_review
                 "frapp"
                 );
 
-        public static string name, typ, uid;
+        public static string name, typ, uid, review;
 
         public Login()
         {
@@ -42,7 +42,7 @@ namespace Faculty_review
                     if (dt.Rows[0][0].ToString() == "1")
                     {
 
-                        using (var cmd = new MySqlCommand("SELECT User_name, type_id,User_id FROM user Where User_id = '" + this.textBox1.Text + "'", conn))
+                        using (var cmd = new MySqlCommand("SELECT User_name, type_id,User_id, reviewed FROM user Where User_id = '" + this.textBox1.Text + "'", conn))
                         {
                             using (var reader = cmd.ExecuteReader())
                             {
@@ -50,6 +50,7 @@ namespace Faculty_review
                                 name = reader.GetString(0);
                                 typ = reader.GetString(1);
                                 uid = reader.GetString(2);
+                                review = reader.GetString(3);
                                 /*var rvwd = reader.GetString(2);*/
                             }
                         }

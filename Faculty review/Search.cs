@@ -58,7 +58,8 @@ namespace Faculty_review
         private void button2_Click(object sender, EventArgs e)
         {
             this.Hide();
-            EvaluateFaculty evaluateFaculty = new EvaluateFaculty();
+            /*EvaluateFaculty evaluateFaculty = new EvaluateFaculty();*/
+            Evaluate evaluateFaculty = new Evaluate();
             evaluateFaculty.Show();
         }
 

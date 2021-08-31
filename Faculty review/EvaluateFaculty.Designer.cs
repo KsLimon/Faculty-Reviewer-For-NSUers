@@ -128,13 +128,14 @@ namespace Faculty_review
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
             this.panel24 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.radioButton18 = new System.Windows.Forms.RadioButton();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -1137,6 +1138,7 @@ namespace Faculty_review
             this.radioButton32.TabIndex = 17;
             this.radioButton32.Text = "The instructor is adequate prepared for class";
             this.radioButton32.UseVisualStyleBackColor = true;
+            this.radioButton32.CheckedChanged += new System.EventHandler(this.radioButton32_CheckedChanged);
             // 
             // radioButton31
             // 
@@ -1161,6 +1163,7 @@ namespace Faculty_review
             this.radioButton30.TabIndex = 17;
             this.radioButton30.Text = "The instructor make sessions lively, focused and interesting";
             this.radioButton30.UseVisualStyleBackColor = true;
+            this.radioButton30.CheckedChanged += new System.EventHandler(this.radioButton30_CheckedChanged);
             // 
             // radioButton29
             // 
@@ -1172,6 +1175,7 @@ namespace Faculty_review
             this.radioButton29.TabIndex = 17;
             this.radioButton29.Text = " The instructor has good command over the subject matter of the course";
             this.radioButton29.UseVisualStyleBackColor = true;
+            this.radioButton29.CheckedChanged += new System.EventHandler(this.radioButton29_CheckedChanged);
             // 
             // radioButton28
             // 
@@ -1183,6 +1187,7 @@ namespace Faculty_review
             this.radioButton28.TabIndex = 17;
             this.radioButton28.Text = "The instructor compare the topics with real life implementation  scenario ";
             this.radioButton28.UseVisualStyleBackColor = true;
+            this.radioButton28.CheckedChanged += new System.EventHandler(this.radioButton28_CheckedChanged);
             // 
             // radioButton27
             // 
@@ -1194,6 +1199,7 @@ namespace Faculty_review
             this.radioButton27.TabIndex = 17;
             this.radioButton27.Text = "The instructor don\'t get angry fast and speak softly";
             this.radioButton27.UseVisualStyleBackColor = true;
+            this.radioButton27.CheckedChanged += new System.EventHandler(this.radioButton27_CheckedChanged);
             // 
             // radioButton26
             // 
@@ -1205,6 +1211,7 @@ namespace Faculty_review
             this.radioButton26.TabIndex = 17;
             this.radioButton26.Text = "The instructor listen to the students and help them to  solve problems ";
             this.radioButton26.UseVisualStyleBackColor = true;
+            this.radioButton26.CheckedChanged += new System.EventHandler(this.radioButton26_CheckedChanged);
             // 
             // radioButton25
             // 
@@ -1216,61 +1223,67 @@ namespace Faculty_review
             this.radioButton25.TabIndex = 17;
             this.radioButton25.Text = "The instructor is student friendly and very nice toward students";
             this.radioButton25.UseVisualStyleBackColor = true;
+            this.radioButton25.CheckedChanged += new System.EventHandler(this.radioButton25_CheckedChanged);
             // 
             // radioButton24
             // 
             this.radioButton24.AutoSize = true;
             this.radioButton24.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.radioButton24.Location = new System.Drawing.Point(563, 133);
+            this.radioButton24.Location = new System.Drawing.Point(563, 109);
             this.radioButton24.Name = "radioButton24";
             this.radioButton24.Size = new System.Drawing.Size(363, 19);
             this.radioButton24.TabIndex = 17;
             this.radioButton24.Text = "The instructor ensures fair exam conditions and strict proctoring";
             this.radioButton24.UseVisualStyleBackColor = true;
+            this.radioButton24.CheckedChanged += new System.EventHandler(this.radioButton24_CheckedChanged);
             // 
             // radioButton17
             // 
             this.radioButton17.AutoSize = true;
             this.radioButton17.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.radioButton17.Location = new System.Drawing.Point(563, 91);
+            this.radioButton17.Location = new System.Drawing.Point(563, 76);
             this.radioButton17.Name = "radioButton17";
             this.radioButton17.Size = new System.Drawing.Size(267, 19);
             this.radioButton17.TabIndex = 17;
             this.radioButton17.Text = "The instructor speaks loud enough and clearly";
             this.radioButton17.UseVisualStyleBackColor = true;
+            this.radioButton17.CheckedChanged += new System.EventHandler(this.radioButton17_CheckedChanged);
             // 
             // radioButton23
             // 
             this.radioButton23.AutoSize = true;
             this.radioButton23.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.radioButton23.Location = new System.Drawing.Point(563, 175);
+            this.radioButton23.Location = new System.Drawing.Point(563, 150);
             this.radioButton23.Name = "radioButton23";
             this.radioButton23.Size = new System.Drawing.Size(328, 19);
             this.radioButton23.TabIndex = 17;
             this.radioButton23.Text = "The instructor follow the class lecture for  exam questions";
             this.radioButton23.UseVisualStyleBackColor = true;
+            this.radioButton23.CheckedChanged += new System.EventHandler(this.radioButton23_CheckedChanged);
             // 
             // radioButton22
             // 
             this.radioButton22.AutoSize = true;
             this.radioButton22.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.radioButton22.Location = new System.Drawing.Point(563, 215);
+            this.radioButton22.Location = new System.Drawing.Point(563, 190);
             this.radioButton22.Name = "radioButton22";
             this.radioButton22.Size = new System.Drawing.Size(410, 19);
             this.radioButton22.TabIndex = 17;
             this.radioButton22.Text = "The instructor is very strict about grading and don\'t curve at final grading";
             this.radioButton22.UseVisualStyleBackColor = true;
+            this.radioButton22.CheckedChanged += new System.EventHandler(this.radioButton22_CheckedChanged);
             // 
             // radioButton21
             // 
             this.radioButton21.AutoSize = true;
             this.radioButton21.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.radioButton21.Location = new System.Drawing.Point(563, 260);
+            this.radioButton21.Location = new System.Drawing.Point(565, 228);
             this.radioButton21.Name = "radioButton21";
             this.radioButton21.Size = new System.Drawing.Size(361, 19);
             this.radioButton21.TabIndex = 17;
             this.radioButton21.Text = "The instructor\'s student evaluation criteria is not much complex";
             this.radioButton21.UseVisualStyleBackColor = true;
+            this.radioButton21.CheckedChanged += new System.EventHandler(this.radioButton21_CheckedChanged);
             // 
             // radioButton20
             // 
@@ -1282,6 +1295,7 @@ namespace Faculty_review
             this.radioButton20.TabIndex = 17;
             this.radioButton20.Text = "The instructor follow  partial marking criteria in the exam";
             this.radioButton20.UseVisualStyleBackColor = true;
+            this.radioButton20.CheckedChanged += new System.EventHandler(this.radioButton20_CheckedChanged);
             // 
             // textBox1
             // 
@@ -1315,25 +1329,15 @@ namespace Faculty_review
             this.panel24.Size = new System.Drawing.Size(1128, 60);
             this.panel24.TabIndex = 20;
             // 
-            // label5
+            // label8
             // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.Location = new System.Drawing.Point(858, 16);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(136, 25);
-            this.label5.TabIndex = 0;
-            this.label5.Text = "Faculty Initial : ";
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(982, 16);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(59, 25);
-            this.label6.TabIndex = 1;
-            this.label6.Text = "initial";
+            this.label8.AutoSize = true;
+            this.label8.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label8.Location = new System.Drawing.Point(107, 16);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(62, 25);
+            this.label8.TabIndex = 3;
+            this.label8.Text = "Name";
             // 
             // label7
             // 
@@ -1346,15 +1350,25 @@ namespace Faculty_review
             this.label7.Text = "Full name :";
             this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
-            // label8
+            // label6
             // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.Location = new System.Drawing.Point(107, 16);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(62, 25);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "Name";
+            this.label6.AutoSize = true;
+            this.label6.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label6.Location = new System.Drawing.Point(982, 16);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(59, 25);
+            this.label6.TabIndex = 1;
+            this.label6.Text = "initial";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.label5.Location = new System.Drawing.Point(858, 16);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(136, 25);
+            this.label5.TabIndex = 0;
+            this.label5.Text = "Faculty Initial : ";
             // 
             // button1
             // 
@@ -1365,6 +1379,7 @@ namespace Faculty_review
             this.button1.TabIndex = 21;
             this.button1.Text = "Submit";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // button2
             // 
@@ -1379,6 +1394,7 @@ namespace Faculty_review
             // panel15
             // 
             this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(24)))), ((int)(((byte)(30)))), ((int)(((byte)(54)))));
+            this.panel15.Controls.Add(this.radioButton18);
             this.panel15.Controls.Add(this.button2);
             this.panel15.Controls.Add(this.button1);
             this.panel15.Controls.Add(this.panel24);
@@ -1405,6 +1421,19 @@ namespace Faculty_review
             this.panel15.Size = new System.Drawing.Size(1128, 604);
             this.panel15.TabIndex = 5;
             this.panel15.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            // 
+            // radioButton18
+            // 
+            this.radioButton18.AutoSize = true;
+            this.radioButton18.ForeColor = System.Drawing.Color.CornflowerBlue;
+            this.radioButton18.Location = new System.Drawing.Point(565, 270);
+            this.radioButton18.Name = "radioButton18";
+            this.radioButton18.Size = new System.Drawing.Size(273, 19);
+            this.radioButton18.TabIndex = 22;
+            this.radioButton18.TabStop = true;
+            this.radioButton18.Text = "The instructor trust students to grade on online";
+            this.radioButton18.UseVisualStyleBackColor = true;
+            this.radioButton18.CheckedChanged += new System.EventHandler(this.radioButton18_CheckedChanged);
             // 
             // EvaluateFaculty
             // 
@@ -1547,5 +1576,6 @@ namespace Faculty_review
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Panel panel15;
+        private System.Windows.Forms.RadioButton radioButton18;
     }
 }

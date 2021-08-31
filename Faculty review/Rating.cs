@@ -89,5 +89,12 @@ namespace Faculty_review
         {
 
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Search search = new Search();
+            search.Show();
+        }
     }
 }
