@@ -140,5 +140,19 @@ namespace Faculty_review
         {
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lin = new Login();
+            lin.Show();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Search search = new Search();
+            search.Show();
+        }
     }
 }

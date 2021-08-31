@@ -154,6 +154,7 @@ namespace Faculty_review
             this.button8.TabIndex = 13;
             this.button8.Text = "Logout";
             this.button8.UseVisualStyleBackColor = true;
+            this.button8.Click += new System.EventHandler(this.button8_Click);
             // 
             // panel9
             // 
@@ -401,6 +402,7 @@ namespace Faculty_review
             this.button2.TabIndex = 24;
             this.button2.Text = "Cancel";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button1
             // 
@@ -486,6 +488,7 @@ namespace Faculty_review
             this.Controls.Add(this.panel8);
             this.Controls.Add(this.panel1);
             this.Name = "Evaluate";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Evalute";
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();

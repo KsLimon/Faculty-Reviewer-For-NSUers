@@ -96,5 +96,12 @@ namespace Faculty_review
             Search search = new Search();
             search.Show();
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Login lin = new Login();
+            lin.Show();
+        }
     }
 }

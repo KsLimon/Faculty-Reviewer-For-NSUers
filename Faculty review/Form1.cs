@@ -42,6 +42,7 @@ namespace Faculty_review
 
         private void button3_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Login lin = new Login();
             lin.Show();
         }
