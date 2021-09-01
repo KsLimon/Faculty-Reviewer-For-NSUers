@@ -48,7 +48,7 @@ namespace Faculty_review
             // 
             // Signin
             // 
-            this.Signin.Location = new System.Drawing.Point(178, 290);
+            this.Signin.Location = new System.Drawing.Point(222, 302);
             this.Signin.Name = "Signin";
             this.Signin.Size = new System.Drawing.Size(75, 23);
             this.Signin.TabIndex = 0;
@@ -105,7 +105,7 @@ namespace Faculty_review
             this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(42)))), ((int)(((byte)(105)))));
             this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(166, 329);
+            this.textBox4.Location = new System.Drawing.Point(166, 345);
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(100, 16);
             this.textBox4.TabIndex = 6;
@@ -115,11 +115,11 @@ namespace Faculty_review
             // Register
             // 
             this.Register.BackColor = System.Drawing.Color.White;
-            this.Register.Location = new System.Drawing.Point(322, 12);
+            this.Register.Location = new System.Drawing.Point(97, 302);
             this.Register.Name = "Register";
-            this.Register.Size = new System.Drawing.Size(121, 23);
+            this.Register.Size = new System.Drawing.Size(90, 23);
             this.Register.TabIndex = 7;
-            this.Register.Text = "Click to Register";
+            this.Register.Text = "Sign up";
             this.Register.UseVisualStyleBackColor = false;
             this.Register.Click += new System.EventHandler(this.Register_Click);
             // 

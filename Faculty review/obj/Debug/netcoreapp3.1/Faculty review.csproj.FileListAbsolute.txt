@@ -94,7 +94,6 @@ E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Ubi
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\bin\Debug\netcoreapp3.1\Zstandard.Net.dll
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.csproj.AssemblyReference.cache
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Edit.resources
-E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.EvaluateFaculty.resources
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Form1.resources
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Login.resources
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Profile.resources
@@ -112,3 +111,4 @@ E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Fac
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty review.genruntimeconfig.cache
 D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Rating.resources
 D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Evaluate.resources
+E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Evaluate.resources

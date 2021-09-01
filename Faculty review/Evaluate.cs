@@ -154,5 +154,15 @@ namespace Faculty_review
             Search search = new Search();
             search.Show();
         }
+
+        private void Evaluate_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void checkedListBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

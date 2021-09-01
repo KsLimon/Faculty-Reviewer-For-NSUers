@@ -63,6 +63,9 @@ namespace Faculty_review
             this.checkedListBox1 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox2 = new System.Windows.Forms.CheckedListBox();
             this.checkedListBox3 = new System.Windows.Forms.CheckedListBox();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.panel13 = new System.Windows.Forms.Panel();
+            this.panel14 = new System.Windows.Forms.Panel();
             this.panel8.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel1.SuspendLayout();
@@ -429,10 +432,11 @@ namespace Faculty_review
             "The instructor make sessions lively, focused and interesting",
             "The instructor has good command over the subject matter of the course",
             "The instructor compare the topics with real life implementation  scenario"});
-            this.checkedListBox1.Location = new System.Drawing.Point(343, 182);
+            this.checkedListBox1.Location = new System.Drawing.Point(239, 186);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(672, 110);
+            this.checkedListBox1.Size = new System.Drawing.Size(961, 110);
             this.checkedListBox1.TabIndex = 26;
+            this.checkedListBox1.SelectedIndexChanged += new System.EventHandler(this.checkedListBox1_SelectedIndexChanged);
             // 
             // checkedListBox2
             // 
@@ -447,7 +451,7 @@ namespace Faculty_review
             "The instructor speaks loud enough and clearly",
             "The instructor ensures fair exam conditions and strict proctoring",
             "The instructor is student friendly and very nice toward students"});
-            this.checkedListBox2.Location = new System.Drawing.Point(456, 316);
+            this.checkedListBox2.Location = new System.Drawing.Point(239, 318);
             this.checkedListBox2.Name = "checkedListBox2";
             this.checkedListBox2.Size = new System.Drawing.Size(672, 110);
             this.checkedListBox2.TabIndex = 27;
@@ -466,10 +470,34 @@ namespace Faculty_review
             "The instructor\'s student evaluation criteria is not much complex",
             "The instructor trust students to grade on online",
             "The instructor follow  partial marking criteria in the exam"});
-            this.checkedListBox3.Location = new System.Drawing.Point(343, 452);
+            this.checkedListBox3.Location = new System.Drawing.Point(239, 451);
             this.checkedListBox3.Name = "checkedListBox3";
-            this.checkedListBox3.Size = new System.Drawing.Size(672, 110);
+            this.checkedListBox3.Size = new System.Drawing.Size(961, 110);
             this.checkedListBox3.TabIndex = 28;
+            // 
+            // panel4
+            // 
+            this.panel4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.panel4.Location = new System.Drawing.Point(230, 182);
+            this.panel4.Name = "panel4";
+            this.panel4.Size = new System.Drawing.Size(3, 109);
+            this.panel4.TabIndex = 29;
+            // 
+            // panel13
+            // 
+            this.panel13.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.panel13.Location = new System.Drawing.Point(230, 319);
+            this.panel13.Name = "panel13";
+            this.panel13.Size = new System.Drawing.Size(3, 109);
+            this.panel13.TabIndex = 29;
+            // 
+            // panel14
+            // 
+            this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
+            this.panel14.Location = new System.Drawing.Point(230, 452);
+            this.panel14.Name = "panel14";
+            this.panel14.Size = new System.Drawing.Size(3, 109);
+            this.panel14.TabIndex = 29;
             // 
             // Evaluate
             // 
@@ -477,6 +505,9 @@ namespace Faculty_review
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(45)))), ((int)(((byte)(51)))), ((int)(((byte)(73)))));
             this.ClientSize = new System.Drawing.Size(1326, 722);
+            this.Controls.Add(this.panel14);
+            this.Controls.Add(this.panel13);
+            this.Controls.Add(this.panel4);
             this.Controls.Add(this.checkedListBox3);
             this.Controls.Add(this.checkedListBox2);
             this.Controls.Add(this.checkedListBox1);
@@ -490,6 +521,7 @@ namespace Faculty_review
             this.Name = "Evaluate";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Evalute";
+            this.Load += new System.EventHandler(this.Evaluate_Load);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
@@ -540,5 +572,8 @@ namespace Faculty_review
         private System.Windows.Forms.CheckedListBox checkedListBox1;
         private System.Windows.Forms.CheckedListBox checkedListBox2;
         private System.Windows.Forms.CheckedListBox checkedListBox3;
+        private System.Windows.Forms.Panel panel4;
+        private System.Windows.Forms.Panel panel13;
+        private System.Windows.Forms.Panel panel14;
     }
 }
