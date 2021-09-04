@@ -65,7 +65,9 @@ namespace Faculty_review
 
         private void button5_Click(object sender, EventArgs e)
         {
-
+            this.Hide();
+            cgpacalc cg = new cgpacalc();
+            cg.Show();
         }
 
         private void Search_Load(object sender, EventArgs e)

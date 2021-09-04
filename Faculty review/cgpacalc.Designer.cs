@@ -168,7 +168,7 @@ namespace Faculty_review
             // pictureBox2
             // 
             this.pictureBox2.Image = global::Faculty_review.Properties.Resources.download;
-            this.pictureBox2.Location = new System.Drawing.Point(1021, 0);
+            this.pictureBox2.Location = new System.Drawing.Point(1207, -2);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(119, 97);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -227,6 +227,7 @@ namespace Faculty_review
             this.button7.TabIndex = 12;
             this.button7.Text = "Add Course";
             this.button7.UseVisualStyleBackColor = false;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button1
             // 
@@ -239,6 +240,7 @@ namespace Faculty_review
             this.button1.TabIndex = 13;
             this.button1.Text = "Calculate CGPA";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
             // textBox2
             // 
@@ -296,6 +298,7 @@ namespace Faculty_review
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel8);
             this.Name = "cgpacalc";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form2";
             this.panel1.ResumeLayout(false);
             this.panel2.ResumeLayout(false);

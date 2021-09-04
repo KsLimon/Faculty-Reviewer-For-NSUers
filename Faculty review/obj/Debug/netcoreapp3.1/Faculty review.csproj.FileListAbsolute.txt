@@ -113,3 +113,4 @@ D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3
 D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Evaluate.resources
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.Evaluate.resources
 E:\CSE299\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.cgpacalc.resources
+D:\EDU\Projects\Faculty-Reviewer-For-NSUers\Faculty review\obj\Debug\netcoreapp3.1\Faculty_review.cgpacalc.resources
