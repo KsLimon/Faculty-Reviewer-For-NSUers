@@ -133,7 +133,9 @@ namespace Faculty_review
                 }
 
             }
-
+            this.Hide();
+            Evaluate ev = new Evaluate();
+            ev.Show();
         }
 
         private void checkedListBox2_SelectedIndexChanged(object sender, EventArgs e)
