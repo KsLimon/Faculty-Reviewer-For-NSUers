@@ -35,7 +35,6 @@ namespace Faculty_review
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.textBox2 = new System.Windows.Forms.TextBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.textBox4 = new System.Windows.Forms.TextBox();
             this.Register = new System.Windows.Forms.Button();
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.textBox3 = new System.Windows.Forms.TextBox();
@@ -84,6 +83,7 @@ namespace Faculty_review
             this.textBox2.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.HistoryList;
             this.textBox2.Location = new System.Drawing.Point(82, 251);
             this.textBox2.Name = "textBox2";
+            this.textBox2.PasswordChar = '*';
             this.textBox2.PlaceholderText = "Password";
             this.textBox2.Size = new System.Drawing.Size(258, 23);
             this.textBox2.TabIndex = 3;
@@ -99,18 +99,6 @@ namespace Faculty_review
             this.pictureBox2.TabIndex = 4;
             this.pictureBox2.TabStop = false;
             this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
-            // 
-            // textBox4
-            // 
-            this.textBox4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(31)))), ((int)(((byte)(42)))), ((int)(((byte)(105)))));
-            this.textBox4.BorderStyle = System.Windows.Forms.BorderStyle.None;
-            this.textBox4.ForeColor = System.Drawing.Color.White;
-            this.textBox4.Location = new System.Drawing.Point(166, 345);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(100, 16);
-            this.textBox4.TabIndex = 6;
-            this.textBox4.Text = "Forgot Password?";
-            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // Register
             // 
@@ -183,7 +171,6 @@ namespace Faculty_review
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.pictureBox3);
             this.Controls.Add(this.Register);
-            this.Controls.Add(this.textBox4);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.textBox2);
             this.Controls.Add(this.textBox1);
@@ -208,7 +195,6 @@ namespace Faculty_review
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.TextBox textBox2;
         private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.TextBox textBox4;
         private System.Windows.Forms.Button Register;
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.TextBox textBox3;
