@@ -128,6 +128,7 @@ namespace Faculty_review
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(180, 722);
             this.panel1.TabIndex = 5;
+            this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
             // panel11
             // 
@@ -202,6 +203,7 @@ namespace Faculty_review
             this.button5.TabIndex = 9;
             this.button5.Text = "CGPA Calculator";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // panel6
             // 

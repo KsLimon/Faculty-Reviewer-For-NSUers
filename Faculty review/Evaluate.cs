@@ -166,5 +166,18 @@ namespace Faculty_review
         {
 
         }
+
+        private void panel1_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Hide();
+            cgpacalc calc = new cgpacalc();
+            calc.Show();
+        }
     }
 }
+
