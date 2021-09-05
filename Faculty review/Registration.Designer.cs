@@ -153,8 +153,7 @@ namespace Faculty_review
             this.comboBox1.FormattingEnabled = true;
             this.comboBox1.Items.AddRange(new object[] {
             "Student",
-            "Faculty",
-            "Advisor"});
+            "Admin"});
             this.comboBox1.Location = new System.Drawing.Point(253, 288);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(247, 23);

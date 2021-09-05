@@ -124,6 +124,7 @@ namespace Faculty_review
 
         private void Register_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Registration rg = new Registration();
             rg.Show();
         }

@@ -112,6 +112,13 @@ namespace Faculty_review
             lin.Show();
         }
 
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Search src = new Search();
+            src.Show();
+        }
+
         private void button9_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -121,6 +128,7 @@ namespace Faculty_review
 
         private void button11_Click(object sender, EventArgs e)
         {
+            this.Hide();
             Profile pp = new Profile();
             pp.ShowDialog();
         }
@@ -129,29 +137,54 @@ namespace Faculty_review
         {
             using (var conn = new MySqlConnection(connectionString))
             {
-
-
                 conn.Open();
-
-                using (var cmd = new MySqlCommand("SELECT initial, name, dep, pro_link, teaching, grading, friendly, over_all FROM faculty WHERE initial='" + this.textBox1.Text + "'", conn))
+                var txt = this.textBox1.Text;
+                if ( txt.Length <= 5)
                 {
-                    using (var reader = cmd.ExecuteReader())
+                    using (var cmd = new MySqlCommand("SELECT initial, name, dep, pro_link, teaching, grading, friendly, over_all FROM faculty WHERE initial ='" + this.textBox1.Text + "'", conn))
                     {
-                        reader.Read();
-                        var initial = reader.GetString(0);
-                        var name = reader.GetString(1);
-                        var link = reader.GetString(3);
-                        label8.Text = initial;
-                        label9.Text = name;
-                        linkLabel1.Text = link;
-                        fac_ini = initial;
-                        fac_name = name;
-                        tc = reader.GetString(4);
-                        gr = reader.GetString(5);
-                        fr = reader.GetString(6);
-                        oa = reader.GetString(7);
-                        label10.Text = oa;
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            reader.Read();
+                            var initial = reader.GetString(0);
+                            var name = reader.GetString(1);
+                            var link = reader.GetString(3);
+                            label8.Text = initial;
+                            label9.Text = name;
+                            linkLabel1.Text = link;
+                            fac_ini = initial;
+                            fac_name = name;
+                            tc = reader.GetString(4);
+                            gr = reader.GetString(5);
+                            fr = reader.GetString(6);
+                            oa = reader.GetString(7);
+                            label10.Text = oa;
 
+                        }
+                    }
+                }
+                else
+                {
+                    using (var cmd = new MySqlCommand("SELECT initial, name, dep, pro_link, teaching, grading, friendly, over_all FROM faculty WHERE name ='" + this.textBox1.Text + "'", conn))
+                    {
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            reader.Read();
+                            var initial = reader.GetString(0);
+                            var name = reader.GetString(1);
+                            var link = reader.GetString(3);
+                            label8.Text = initial;
+                            label9.Text = name;
+                            linkLabel1.Text = link;
+                            fac_ini = initial;
+                            fac_name = name;
+                            tc = reader.GetString(4);
+                            gr = reader.GetString(5);
+                            fr = reader.GetString(6);
+                            oa = reader.GetString(7);
+                            label10.Text = oa;
+
+                        }
                     }
                 }
 

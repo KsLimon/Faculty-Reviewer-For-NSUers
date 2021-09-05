@@ -38,7 +38,7 @@ namespace Faculty_review
                 MySqlDataReader MyReader2;*/
                 conn.Open();
 
-                using (var cmd = new MySqlCommand("UPDATE user SET User_name='" + this.textBox1.Text + "', password= '" + this.textBox2.Text + "' WHERE User_id=1813059642", conn))
+                using (var cmd = new MySqlCommand("UPDATE user SET User_name='" + this.textBox1.Text + "', password= '" + this.textBox2.Text + "' WHERE User_id= '"+ Login.uid +"'", conn))
                 {
                     using (var reader = cmd.ExecuteReader())
                     {
@@ -53,6 +53,10 @@ namespace Faculty_review
                 }
                 MessageBox.Show($"{textBox1.Text}");*/
             }
+
+            this.Hide();
+            Login lg = new Login();
+            lg.Show();
             
         }
     }

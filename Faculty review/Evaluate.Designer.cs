@@ -37,7 +37,6 @@ namespace Faculty_review
             this.panel10 = new System.Windows.Forms.Panel();
             this.button8 = new System.Windows.Forms.Button();
             this.panel9 = new System.Windows.Forms.Panel();
-            this.button6 = new System.Windows.Forms.Button();
             this.panel7 = new System.Windows.Forms.Panel();
             this.button5 = new System.Windows.Forms.Button();
             this.panel6 = new System.Windows.Forms.Panel();
@@ -113,7 +112,6 @@ namespace Faculty_review
             this.panel1.Controls.Add(this.panel10);
             this.panel1.Controls.Add(this.button8);
             this.panel1.Controls.Add(this.panel9);
-            this.panel1.Controls.Add(this.button6);
             this.panel1.Controls.Add(this.panel7);
             this.panel1.Controls.Add(this.button5);
             this.panel1.Controls.Add(this.panel6);
@@ -143,7 +141,7 @@ namespace Faculty_review
             this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.panel10.Location = new System.Drawing.Point(0, 182);
             this.panel10.Name = "panel10";
-            this.panel10.Size = new System.Drawing.Size(10, 285);
+            this.panel10.Size = new System.Drawing.Size(10, 230);
             this.panel10.TabIndex = 14;
             // 
             // button8
@@ -164,23 +162,10 @@ namespace Faculty_review
             // 
             this.panel9.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(0)))), ((int)(((byte)(126)))), ((int)(((byte)(249)))));
             this.panel9.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel9.Location = new System.Drawing.Point(0, 465);
+            this.panel9.Location = new System.Drawing.Point(0, 410);
             this.panel9.Name = "panel9";
             this.panel9.Size = new System.Drawing.Size(180, 2);
             this.panel9.TabIndex = 12;
-            // 
-            // button6
-            // 
-            this.button6.Dock = System.Windows.Forms.DockStyle.Top;
-            this.button6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button6.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.button6.ForeColor = System.Drawing.Color.CornflowerBlue;
-            this.button6.Location = new System.Drawing.Point(0, 410);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(180, 55);
-            this.button6.TabIndex = 11;
-            this.button6.Text = "Setting";
-            this.button6.UseVisualStyleBackColor = true;
             // 
             // panel7
             // 
@@ -548,7 +533,6 @@ namespace Faculty_review
         private System.Windows.Forms.Panel panel10;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Panel panel9;
-        private System.Windows.Forms.Button button6;
         private System.Windows.Forms.Panel panel7;
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Panel panel6;
