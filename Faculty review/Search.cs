@@ -119,6 +119,13 @@ namespace Faculty_review
             src.Show();
         }
 
+        private void button6_Click_1(object sender, EventArgs e)
+        {
+            this.Hide();
+            addfaculty af = new addfaculty();
+            af.Show();
+        }
+
         private void button9_Click(object sender, EventArgs e)
         {
             this.Hide();
@@ -128,7 +135,6 @@ namespace Faculty_review
 
         private void button11_Click(object sender, EventArgs e)
         {
-            this.Hide();
             Profile pp = new Profile();
             pp.ShowDialog();
         }

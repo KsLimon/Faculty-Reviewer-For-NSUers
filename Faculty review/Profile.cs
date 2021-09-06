@@ -44,6 +44,28 @@ namespace Faculty_review
                         label3.Text = "Faculty Reviewed: "+rvwd;
                     }
                 }
+
+                if (Login.typ == "3")
+                {
+                    button3.Hide();
+                    label4.Hide();
+                }
+                else
+                {
+                    using (var cmd = new MySqlCommand("SELECT COUNT(*) FROM notification", conn))
+                    {
+                        using (var reader = cmd.ExecuteReader())
+                        {
+                            reader.Read();
+                            var cn = reader.GetString(0);
+                            label4.Text = cn;
+                            if(cn == "0")
+                            {
+                                label4.Hide();
+                            }
+                        }
+                    }
+                }
             }
 
 
@@ -86,6 +108,17 @@ namespace Faculty_review
         }
 
         private void pictureBox2_Click_1(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            notify nf = new notify();
+            nf.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
         {
 
         }
