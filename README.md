@@ -3,4 +3,4 @@
 2. Sajib Hossain - 1821245642
 3. Md. Sharukh Fardin - 1821463042
 # Faculty Reviewer For NSUers
-CSE299 Section 4 project
+This is the CSE 299 Project under Zunayeed Bin Zahir (ZbZ) Sir. Semester Spring 2021.
